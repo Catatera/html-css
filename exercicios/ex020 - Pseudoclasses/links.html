@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        *{
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+        }
+        a:hover{
+            color: rgb(85, 83, 83);
+            text-decoration: double;
+        }
+        a:visited{
+            color:grey
+        }
+        .especial::before{
+            content:'>'
+        }
+        .especial::after{
+            content:'<'
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="http://youtube.com" target="_blank">Repositório GitHub</a></li>
+        <li><a href="http://google.com" target="_blank">Canal Youtube</a></li>
+        <li><a href="htpp://gmail.com" target="_blank" class="especial">Site do Curso em Vídeo</a></li>
+    </ul>
+</body>
+</html>

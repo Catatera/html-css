@@ -1,0 +1,28 @@
+*{
+    font-style: normal 22pt;
+    background-color: rgb(31, 29, 29);
+    color: white;
+    text-align: center;
+}
+header{
+    margin-top: 80px;
+    font-size: 60px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+#completo{
+    text-decoration: dashed;
+    position: relative;
+    top: 40px;
+    right: 225px;
+    font-size: 25px;
+}
+iframe{
+    position: relative;
+    left: 140px;
+}
+img{
+    position: relative;
+    right: 400px;
+    top: 120px;
+}

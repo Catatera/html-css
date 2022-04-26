@@ -1,0 +1,51 @@
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+        background-image: url(midia/background-full.png);
+        background-size: cover;
+        overflow-x:hidden;
+        height: 100%;
+    }
+       
+   #listahab {
+    padding-left:  10px;
+    padding-bottom: 30px;
+    background-color: rgba(87, 122, 163, 0.699);
+    background-blend-mode: normal;
+    box-shadow: rgba(0, 0, 0, 0.41) 5px 5px 10px 10px;
+    border: 0px none rgb(0, 0, 0);
+   }
+   
+   #titulo{
+       text-align: center;
+       background-color: rgba(116, 110, 110, 0);
+       margin: 10px 500px;
+    }
+   
+   .titulohab{
+    margin: 40px 85px ;
+    font-weight: bolder;
+   }
+   .fotohab{
+    margin: -62px 10px;
+    float: left;
+    border: none;
+   }
+
+   p.hab{
+       margin-left: -4px;
+       margin-top: -40px;
+       margin-bottom: -30px;
+       padding: 1px 90px;
+       position: fixed;
+       display: none;
+       text-align: left;
+
+   }    
+
+   div#listahab:hover > p.hab {
+       display: block;
+   }
+
+   

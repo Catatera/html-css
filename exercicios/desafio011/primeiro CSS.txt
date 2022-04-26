@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: idroid;
+    src: url('fontes/idroid.otf');
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0px 0px;
+    background-color: #E7E4C1;
+}
+header{
+    background-color: #3CDB83;
+    background-image: linear-gradient(to bottom, #3CDB83, #27593E );
+    color: white;
+    margin-top: -22px;
+    padding-top: 35px;
+}
+header>h1{
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Bebas Neue';
+}
+header>h2{
+    padding: 1% 25% 3% 25%;
+    text-align: center;
+    margin: 0%;
+    font-weight: lighter;
+}
+nav{
+    display: inline;
+
+}
+nav>a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 0% 1%;
+}
+main,footer{
+    background-color: white;
+    margin: 0% 14.5%;
+    padding: 1% 0%;
+}
+main>h1{
+    text-indent: 3%;
+    color: #1A5C38;
+}
+main>h2{
+    text-indent: 3%;
+    background-image: linear-gradient(to right, #C5EBD6, white);
+    color: #1A5C38;
+    padding-right: 55%;
+    margin-left: 2.4%;
+}
+img{
+    padding: 0% 10%;
+}
+footer{
+    background-color:white;
+    padding-bottom: 0.1%;
+}
+footer>div{
+    margin: 0% 3%;
+    background-color: #C5EBD6;
+    border-radius: 2%;
+    padding-bottom: 1px;
+}
+footer>div>h3{
+    color: white;
+    background-color: #2EA765;
+    border-radius: 10px 10px 0px 0px;
+    padding: 1% 0%;
+    text-indent: 1%;
+    margin: 0% 0% 0% 0%;
+}
+footer>div>ul>li>a{
+    color: black;
+    text-decoration: underline;
+}
+p{
+    text-indent: 3%;
+    margin: 3%;
+    text-align: justify;
+    font-size: larger;
+}
+
+ul{
+    margin: 0px 3%;
+}
+ul>li{
+    margin: 0px;
+    display: inline-block;
+    width: 34.9%;
+    text-align: initial;
+}
+
+a{
+    text-decoration: none;
+    color: #078140;
+    font-weight: bold;
+}
+
+.idroid{
+    font-family: idroid, Arial, Helvetica, sans-serif;
+}

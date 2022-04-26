@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <section>
+        <div id="insira">
+            <p>Digite os números</p> 
+        </div>
+        <div id="numeros">
+            <input type="text" name="" class="inserirNum" id="txtn1">
+            <input type="text" name="" class="inserirNum" id="txtn2">
+        </div>
+        <div id="operacoes">
+            <input type="button" value="+" class="operacao" id="adicao" onclick="adicao()"> 
+            <input type="button" value="-" class="operacao" id="subtracao" onclick="subtracao()">
+            <input type="button" value="*" class="operacao" id="multiplicacao" onclick="multiplicacao()">
+            <input type="button" value="/" class="operacao" id="divisao" onclick="divisao()">
+            <input type="button" value="^" class="operacao" id="potencia" onclick="potencia()">
+        </div>
+        <div id="numeros">
+            <input type="button" value="1" id="um" onclick="adicionar1()">
+            <input type="button" value="2" id="dois" onclick="adicionar2()">
+            <input type="button" value="3" id="tres" onclick="adicionar3()">
+            <input type="button" value="4" id="quatro" onclick="adicionar4()">
+            <input type="button" value="5" id="cinco" onclick="adicionar5()">
+            <input type="button" value="6" id="seis" onclick="adicionar6()">
+            <input type="button" value="7" id="sete" onclick="adicionar7()">
+            <input type="button" value="8" id="oito" onclick="adicionar8()">
+            <input type="button" value="9" id="nove" onclick="adicionar9()">
+            <input type="button" value="0" id="zero" onclick="adicionar0()">
+        </div>
+    </section>
+    <footer>
+        @gabriel_leonelx    
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
