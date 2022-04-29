@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
 :root{
+    --transparente : rgba(0, 0, 0, 0.221);
     --cor00: white;
     --cor01: black;
     --cor02: darkgray;
@@ -14,8 +15,8 @@
     padding: 0px;
 }
 
-html,body{
-    min-height: 100vh;
+body{
+    height: 100%;
     background-color: var(--cor02);
 }
 
@@ -24,24 +25,25 @@ header{
     color: var(--cor00);
     text-align: center;
     margin-top: 0px;
-    padding: 65px 0px;
+    max-height: 42.1vh;
+    min-height: 190px;
 }
 header>h1{
+    padding-top: 42px;
     font: normal bold 70px var(--fonte00),Arial,Helvetica,sans-serif;
     font-variant: small-caps;
 }
 
 header>p{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-    padding-top: 20px;
+    font-size: larger;
     padding-bottom: 20px;
 }
 
 header>p>a{
     color: white;
     text-decoration: none;
-    font-weight: bolder;
+    font-weight: 800;
 }
 
 header a:hover, footer a:hover{
@@ -54,8 +56,8 @@ section{
 }
 
 section>p{
-    font: normal lighter large var(--fonte01),Arial,Helvetica,sans-serif;
-    padding-left: 70px;
+    font: normal 500 3em var(--fonte01),Arial,Helvetica,sans-serif;
+    padding-left: 50px;
     line-height: 2em;
 }
 
@@ -64,13 +66,27 @@ section.normal{
 }
 
 section.imagem{
-    background-color: rgb(52, 46, 46);
+    background-color: rgb(220, 215, 215);
     color: var(--cor00);
 }
-
+#joaninha{
+    background-image: url('../imagens/background001.jpg');
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+}
+#livro{
+    background-image: url('../imagens/background002.jpg');
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+}
 section.imagem> p{
-    max-width: 300px;
-    background-color: var(--cor01);
+    max-width: 620px;
+    background-color: var(--transparente);
+    border-radius: 15px;
+    margin-left: 40px;
+    padding-left: 10px;
 }
 
 footer{
